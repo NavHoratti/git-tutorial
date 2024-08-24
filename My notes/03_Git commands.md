@@ -19,3 +19,15 @@ If you missed adding one more file, just do the same proces with just a small ch
 
 git add .
 git commit -m "Version" --amend
+
+# Note
+
+# When you do [git add .] or [git add filename] , it moves the files into the staging area.
+
+# [git reset .] or [git reset filename], it takes out of the staging area.
+
+So similarly if you want take the files out of the staging area, then we use [reset]
+
+Also, if we want to undo/ discard the changes to the file, we use,
+
+git checkout -- change.js
