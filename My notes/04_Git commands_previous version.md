@@ -13,3 +13,11 @@ commit hash is the commit id which you will see when you do a commit
 # {Master/main} - always points to the latest commit to the branch.
 
 if you trying to access the main branch just do [git checkout main]
+
+# NoTE:
+
+If you want to restore soe of the changes in different version, then do
+
+[git checkout [main/commit hash] [changes you want to push]]
+
+ex: git checkout main .
