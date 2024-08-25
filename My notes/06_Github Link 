@@ -15,3 +15,19 @@ If we want to remove the link of remote repo from our local repo, we use
 Note:
 Upload to github = Push
 Download from Github = Pull
+
+# To push our changes to Github repo, we need to give the creddentails of the person who created it.
+
+# [git config --global credential.username "NavHoratti"]
+
+Now to push, we need to give remote repository name [origin] and to which branch of commits that we are going to push. [because when we push we do not pus entire commit history, but instead we only push one branch of commits at a time ]
+
+# [git push origin main]
+
+Then it will ask you the password, just give the token you have generated, from settings > Developer settings> Personal access tokens> Tokens (classic). Or watch this video [https://www.google.com/search?q=fatal%3A+Authentication+failed+for+%27https%3A%2F%2Fgithub.com%2FNavHoratti%2Fgit-tutorial.git%2F%27&oq=fatal%3A+Authentication+failed+for+%27https%3A%2F%2Fgithub.com%2FNavHoratti%2Fgit-tutorial.git%2F%27&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg60gEHMzMwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:2da107cf,vid:pHaZW9OWUAQ,st:36]
+
+# Once you push the code from locl repo to the GitHub, then if you do [git log --all --graph],you will see [HEAD -> main, origin/main]. Origin/main means now GitHub is now idetical to our local branch.
+
+# [git push origin main --set-upstream] - short form for pushing our code to main branch, so that next time yu only need to type [git push].
+
+# [Note] - [git push origin main] command only push the commits to GitHub.
