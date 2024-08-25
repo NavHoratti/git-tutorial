@@ -28,6 +28,8 @@ git commit -m "Version" --amend
 
 So similarly if you want take the files out of the staging area, then we use [reset]
 
-Also, if we want to undo/ discard the changes to the file, we use,
+Also, if we want to [undo/ discard] the changes to the files in the working area, we use,
 
-git checkout -- change.js
+# [git checkout -- change.js] or [git checkout -- .] 
+
+

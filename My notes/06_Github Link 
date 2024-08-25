@@ -1,0 +1,17 @@
+In order to add a link from our local repo to our remote repository on Git hub, we use
+
+# [git remote add origin "repo url from github"]
+
+To check if the link rom our local repo to our remote repository has been made, we use
+
+# [git remote] - shows just the name [origin], but if we need more details of the link, we use,
+
+# [git remote -v] - this will give the repo Url
+
+If we want to remove the link of remote repo from our local repo, we use
+
+# [git remote remove origin]
+
+Note:
+Upload to github = Push
+Download from Github = Pull
